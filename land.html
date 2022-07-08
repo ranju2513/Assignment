@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+        <title>LandLord Information</title>
+</head> 
+<body>
+    <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <h6>How will my landlord receive rent?</h6>
+        </li>
+    </ul>
+<h1>Landlord Information</h1>
+<h5>Provide your landlord details and we will setup your account.</h5>
+<form>
+    <div class="form-row">
+      <div class="form-group col-md-4">
+        <label>Landlord Name(As per bank records)</label>
+        <input type="text" class="form-control" placeholder="Enter landlord's name">
+      </div>
+      <div class="form-group col-md-4">
+    <label>Enter mobile number</label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend"  id="inlineFormCustomSelectPref">
+            <div class="input-group-text">+91</div>
+          </div>
+          <input type="number" class="form-control"  placeholder="Enter mobile number">
+        </div>
+        </div>
+    </div>
+        <div class="form-row">
+      <div class="form-group col-md-4">
+        <label>Bank Account Number</label>
+        <input type="text" class="form-control" placeholder="Enter account number">
+    </div>
+        <div class="form-group col-md-4">
+          <label>Confirm Account Number</label>
+          <input type="text" class="form-control" placeholder=" Re-enter account number">
+      </div>
+        </div>
+        <div class="form-row">
+            <div class="form-group col-md-4">
+              <label>IFSC Code</label>
+              <input type="text" class="form-control" placeholder="Enter IFSC Code here(e.g.KKBK0000430">
+          </div>
+          <div class="form-group col-md-4">
+            <label>Pay Rent For</label>
+            <select id="customControlValidation" class="form-control">
+                <option selected>June</option>
+              <option>July</option>
+              <option>August</option>
+              <option>Sep</option>
+              <option>Oct</option>
+            </select>
+          </div> 
+    </div>
+    <div class="form-row">
+    <div class="form-group col-md-4">
+        <label>BHK Type</label>
+        <select id="customControlValidation" class="form-control">
+            <option selected>3 BHK</option>
+          <option>4 BHK</option>
+          <option>5 BHK</option>
+          <option>2 BHK</option>
+        </select>
+      </div> 
+</div>
+<div class="form-row">
+    <div class="form-group col-md-4">
+      <label>Rent Amount</label>
+      <input type="text" class="form-control" placeholder="Enter your rent">
+    </div>
+      </div>
+<h6>By continuing you agree to our terms and condition</h6>
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1">Auto-Pay rent with NoBroker
+        <p>Your card will be charged automatically from next month</p>
+    </span>
+  
+<div class="custom-control custom-switch">
+    <input type="checkbox" class="custom-control-input" id="customSwitch1">
+    <label class="custom-control-label" for="customSwitch1"></label>
+  </div>
+</nav>
+<nav class="navbar navbar-light bg-light">
+    <span class="navbar-brand mb-0 h1"><h6>We are temporarily experiencing issues with Amex&Diners Club cards.Please use other payment mode.</h6>
+    </span>
+    </nav>
+    <button type="button" class="btn btn-danger">Pay Now</button>
+</body>
+</html>
